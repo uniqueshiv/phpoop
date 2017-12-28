@@ -4,7 +4,7 @@ Abstract class mtlb adhuri class and function,
 abstract class never make it's object directly
 use for enforcement eg.develper works different class to alg class m ek class use krenge jo phle defined h jisse functions nmae aur varible m confliction na aaye.
 //abstract method bhi adhura just initilize krenge
-
+//abstract class
 */
 abstract class BaseEmp{
   protected $fname;
