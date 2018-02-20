@@ -53,4 +53,14 @@
   
  // print_r(array_unique($array));// remove the repeated value return unique array
 
+
+
+function myfunction($value,$key)
+{
+echo "The key $key has the value $value<br>";
+}
+$a=array("a"=>"red","b"=>"green","c"=>"blue");
+array_walk($a,"myfunction");
+
+//array_walk(array_name,"function_name") function use to doing some functionality in the array
 ?>
